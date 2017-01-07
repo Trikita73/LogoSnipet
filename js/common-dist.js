@@ -1,0 +1,1 @@
+$(function(){$(".sf-menu").superfish({delay:200,speed:"fast",cssArrows:!1}),after("<div id ='mobile-menu'>").clone().appendTo("#mobile-menu"),$("#mobile-menu").children("ul").removeClass("sf-menu").mmenu(),$(".toggle-mnu").click(function(){return $(this).toggleClass("on"),$(".main-mnu").slideToggle(),!1})});
